@@ -1,0 +1,18 @@
+[
+    {
+        "name": "bob",
+        "age": 35,
+        "job": "mechanic"
+    },
+    {
+        "name": "susan",
+        "age": 25,
+        "job": "florist"
+    },
+    {
+        "name": "zatanna",
+        "age": 25,
+        "job": "magician",
+        "superhero": true
+    }
+]

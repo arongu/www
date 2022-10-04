@@ -1,0 +1,38 @@
+body {
+    background-color: rgba(210, 210, 210, 0.24);
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family : ariel, monospace, sans-serif;
+    font-size: 2.25vh;
+}
+
+a { border-radius: 6px; }
+
+a:link, a:visited {
+    color: black;
+    display: inline;
+    font-weight : normal;
+    padding-left: 2px;
+    padding-right: 2px;
+    text-decoration : none;
+}
+
+a:hover, #worthy:hover {
+    background-color : rgba(32, 138, 243, 0.8);
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.worthy:hover {
+    background-color: rgba(241, 69, 7, 0.66);
+    color: white;
+}
+
+#cat {
+    background-color: transparent;
+    color: transparent;
+    font-size: 2vh;
+}
+
+#cat:hover { color: black; }

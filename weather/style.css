@@ -1,0 +1,80 @@
+@font-face {
+    font-family: "Craftone";
+    src: url("../lib/fonts/craftone.regular.ttf");
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-image: url("../lib/pix/anime_clouds.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 3.75vh;
+    text-align: center;
+
+    animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    -moz-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
+}
+
+#div_header {
+    font-family: Craftone, serif;
+    font-size: 15vh;
+    text-align: center;
+    text-shadow: 2px 2px #ffffff;
+}
+
+#div_geo, #div_weather, #div_air, #div_error {
+    background-color: rgba(0,0,0,0.45);
+    border-style: solid;
+    border-width: thin;
+    border-radius: 30vh;
+    display: none;
+    width: 30%;
+}
+
+#div_error {
+    display: none;
+    color: white;
+    width: 100%;
+}
+
+#div_lookup { margin-bottom: 3vh; }
+
+#input_field {
+    font-size: 2.5vh;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+
+#input_field:focus { outline: none; }
+
+table {
+    border-radius: 3000px;
+    text-align: center;
+    padding: 1.5vh;
+    width: 100%;
+}
+
+td {
+    background-color: rgba(210, 210, 210, 1);
+    border-radius: 30px;
+    border-style: solid;
+    text-align: center;
+}

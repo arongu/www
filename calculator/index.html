@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="keywords" content="calculator, javascript, Aron Gulyas">
+        <meta name="author" content="Aron Gulyas">
+        <title>Needlessly Large Classic Calculator</title>
+        <meta name="description" content="This is a classic calculator it can work on 2 numbers at a time. Each arithmetic operator is a delimiter!
+            Do not expect 2 + 5 x 4 + to be 22. This is an old school calculator which can only deal with a single,
+            operator at and two numbers at a time. Meaning 2 + 5 x => x (multiplication sign is a delimiter - note each arithmetic operator is
+            a delimiter, this is how the calculator know you stopped typing the number), 2 + 5 -> 7 x ? then you can continue working with the number.
+            Writing 'smart' calculator is a bit easier. Passing the string '2 + 5 x 7' and js will take care of it. This is and old school calculator."
+        >
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="module" src="js/app.js"></script>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td colspan="4" id="display">0</td>
+            </tr>
+            <tr>
+                <td class="button" id="clear">AC</td>
+                <td class="button" id="backspace">&#8676;</td>
+                <td class="button_op" id="modulo">%</td>
+                <td class="button_op" id="divide">&#247;</td>
+            </tr>
+            <tr>
+                <td class="button" id="seven">7</td>
+                <td class="button" id="eight">8</td>
+                <td class="button" id="nine">9</td>
+                <td class="button_op" id="multiply">x</td>
+            </tr>
+            <tr>
+                <td class="button" id="four">4</td>
+                <td class="button" id="five">5</td>
+                <td class="button" id="six">6</td>
+                <td class="button_op" id="subtract">-</td>
+            </tr>
+            <tr>
+                <td class="button" id="one">1</td>
+                <td class="button" id="two">2</td>
+                <td class="button" id="three">3</td>
+                <td class="button_op" id="add">+</td>
+            </tr>
+            <tr>
+                <td colspan="1.5" class="button" id="zero">0</td>
+                <td class="button" colspan="0.5" id="decimal">.</td>
+                <td class="button" id="ui_message">+/-</td>
+                <td class="button_op" id="equals">=</td>
+            </tr>
+        </table>
+    </body>
+</html>

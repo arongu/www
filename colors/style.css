@@ -1,0 +1,29 @@
+body {
+    font-size: 23pt;
+    height: 100vh;
+    margin: 0;
+}
+
+#menu {
+    background-color: rgba(210, 210, 210, 0.51);
+    margin: 0;
+    padding: 0;
+    position: static;
+    width: 100vw;
+}
+
+.menu-item {
+    display: inline;
+    list-style-type: none;
+}
+
+.menu-item:hover {
+    background-color: #b2b2b6;
+}
+
+#div_main {
+    background-color: #0002a8;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+}
